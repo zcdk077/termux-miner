@@ -1,5 +1,5 @@
-# CPUMINER-MULTI
-<a href=https://moneyblink.com/6sVz>Original Script</a>
+# TERMUX-MINER
+<a href=https://moneyblink.com/20BcrW>Original Script</a>
 
 # ANDROID SMARTPHONE
 
@@ -52,12 +52,12 @@ yes | apt-get update && apt-get upgrade -y
 ## [ Install Builds ]
 
 ```
-apt-get install git proot nano automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
+apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool git
 ```
 
 ## [ Clone & Install CPUMiner-Multi ]
 ```
-git clone https://github.com/zcdk077/cpuminer-multi && cd cpuminer-multi && chmod +x start.sh && ./build-linux-arm.sh
+git clone https://github.com/zcdk077/termux-miner && cd termux-miner && chmod +x start.sh && ./build-android.sh
 ```
 
 ## [ Edit Wallet ]
@@ -80,7 +80,7 @@ cd .. && nano ../etc/bash.bashrc
 
 ```
 clear
-cd cpuminer-multi/&&./start.sh
+cd termux-miner/&&./start.sh
 ```
 
 Jika tidak mengerti tentang autorun bisa melewati langkah ## [ Autorun Ubuntu ] dan [ Autorun Mining ]
