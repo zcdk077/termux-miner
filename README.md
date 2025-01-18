@@ -52,10 +52,10 @@ yes | apt-get update && apt-get upgrade -y
 ## [ Install Builds ]
 
 ```
-apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool git
+apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool git nano
 ```
 
-## [ Clone & Install CPUMiner-Multi ]
+## [ Clone & Install Termux-Miner ]
 ```
 git clone https://github.com/zcdk077/termux-miner && cd termux-miner && chmod +x start.sh && ./build-android.sh
 ```
@@ -65,7 +65,7 @@ git clone https://github.com/zcdk077/termux-miner && cd termux-miner && chmod +x
 nano start.sh
 ```
 
-## [ Start CPUMiner-Multi ]
+## [ Start Termux-Miner ]
 ```
 ./start.sh
 ```
