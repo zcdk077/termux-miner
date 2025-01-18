@@ -31,6 +31,7 @@ echo ""
 echo ""
 echo ""
 echo "${LYLO}create configure...${N}" && sleep 2
+cd termux-miner
 if [ ! -e configure ]; then
 rm -rf autom4te.cache
        rm -f Makefile.in aclocal.m4 autom4te.cache compat/Makefile.in
